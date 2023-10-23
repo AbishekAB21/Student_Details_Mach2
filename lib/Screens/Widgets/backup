@@ -1,0 +1,19 @@
+// // Assuming 'data.img' contains the file path as a String
+//                 String imagePath = data.img; // Assuming 'img' is of type String
+
+// // Create a File object from the file path
+// File imageFile = File(imagePath);
+
+// // Check if the file exists
+// if (imageFile.existsSync()) {
+//   // Read the image file into a Uint8List
+//   Uint8List imageBytes = imageFile.readAsBytesSync();
+
+//   // Create a MemoryImage from the bytes and use it in the CircleAvatar
+//   MemoryImage memoryImage = MemoryImage(imageBytes);
+
+//   CircleAvatar(
+//     backgroundImage: memoryImage,
+//     radius: 20,
+//   );
+// } 
